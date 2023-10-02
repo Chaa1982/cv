@@ -1,0 +1,33 @@
+body{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url("./images/branch.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.href{
+    
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: #eeddb7;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.4s linear;
+}
+.href:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.active {
+    color: var(--color-active);
+    cursor: default;
+}
+

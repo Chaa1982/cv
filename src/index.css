@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+.active {
+  color: var(--color-active) !important;
+  cursor: pointer;
+}
